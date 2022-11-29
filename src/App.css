@@ -1,3 +1,46 @@
-.App {
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.wrapper .error-count {
+  margin: 15px 0;
+}
+
+.text-area {
+  resize: none;
+  width: 500px;
+  height: 200px;
+  margin: 15px auto;
+}
+
+.text-area.not-correct {
+  border: 2px solid #FF0000;
+}
+
+.suggestions-section {
+  display: flex;
+  width: 100%;
+  margin: 15px 0;
   text-align: center;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+.suggestions-section .words {
+  width: 30%;
+}
+
+.suggestions-section .suggestions-text {
+  width: 70%;
+}
+
+.submit-button {
+  padding: 10px;
+  cursor: pointer;
+  background: #FF0000;
+  color: #fff;
 }
